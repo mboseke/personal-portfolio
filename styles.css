@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Jost';
+    src: url(/font/Jost-VariableFont_ital\,wght.ttf);
+}
+
+h2 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Jost';
+    margin: 0;
+}
+
+a {
+    color: black;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content::before {
+    content: "";
+    background-image: url(/images/boston.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.25;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    padding: 20px;
+    position: relative;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.about-me {
+    font-size: 24px;
+}
+
+.runkeeper:hover {
+    font-weight: bold;
+}
+
+.links-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0 20px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.link:hover {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 760px) {
+    .links-wrapper {
+        flex-direction: row;
+    }
+
+    .link {
+        margin: 10px;
+    }
+}
