@@ -34,7 +34,6 @@ a {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    height: auto;
     opacity: 0.25;
 }
 
@@ -85,5 +84,11 @@ a {
 
     .link {
         margin: 10px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .content::before {
+        min-height: 700px;
     }
 }
