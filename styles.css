@@ -49,11 +49,11 @@ a {
 }
 
 .name {
-    font-size: 50px;
+    font-size: 43px;
 }
 
-.about-me {
-    font-size: 24px;
+.intro, .about-me {
+    font-size: 20px;
 }
 
 .runkeeper:hover {
@@ -79,6 +79,14 @@ a {
 }
 
 @media screen and (min-width: 760px) {
+    .name {
+        font-size: 50px;
+    }
+
+    .intro, .about-me {
+        font-size: 24px;
+    }
+
     .links-wrapper {
         flex-direction: row;
     }
