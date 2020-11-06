@@ -57,8 +57,7 @@ a {
 }
 
 .runkeeper {
-    color: #2ec9d7;
-    text-decoration: none;
+    font-weight: bolder;
 }
 
 .runkeeper:hover {
@@ -90,6 +89,10 @@ a {
 }
 
 @media screen and (min-width: 760px) {
+    .content-container {
+        width: 60%;
+    }
+    
     .name {
         font-size: 48px;
     }
