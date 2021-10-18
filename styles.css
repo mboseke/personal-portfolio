@@ -56,13 +56,12 @@ a {
     font-size: 20px;
 }
 
-.runkeeper {
+.ted {
     font-weight: bolder;
 }
 
-.runkeeper:hover {
-    font-weight: bold;
-    text-decoration: underline;
+.ted:hover {
+    color: #d81f18;
 }
 
 .links-wrapper {
